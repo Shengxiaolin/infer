@@ -131,6 +131,7 @@ void single_inference() {
 }
 
 int main() {
+  std::cout << "infer demo" << std::endl;
   perf();
   batch_inference();
   single_inference();
