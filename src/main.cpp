@@ -134,6 +134,6 @@ int main() {
   std::cout << "infer demo v2.0" << std::endl;
   perf();
   batch_inference();
-  single_inference();
+  // single_inference();
   return 0;
 }
